@@ -1,1 +1,1 @@
-build --cxxopt='-std=c++17'
+build --cxxopt='-std=c++17' --cxxopt='-Wimplicit-fallthrough' --cxxopt='-Wno-sign-compare' --cxxopt='-Wno-unused-result' --cxxopt='-Werror' --cxxopt='-Wno-error=format'
